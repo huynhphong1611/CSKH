@@ -1,0 +1,4 @@
+<paths>
+    <external-path name="my_images"
+        path="Android/data/com.bkav.cskh/files/Pictures" />
+</paths>

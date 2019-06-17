@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorIndivateTab">
+    <LinearLayout
+        android:id="@+id/btnChoose"
+        android:layout_width="90dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:scaleType="centerInside">
+        <ImageButton
+            android:id="@+id/btnChooseImg"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="centerInside"
+            android:padding="10dp"
+            android:src="@drawable/ic_float_button" />
+        <ImageButton
+            android:id="@+id/btnSend"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:scaleType="centerInside"
+            android:padding="10dp"
+            android:background="#00000000"
+            android:src="@drawable/ic_send" />
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey_200"
+        android:layout_above="@id/btnChoose"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerChat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/line"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <EditText
+        android:id="@+id/editWriteMessage"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="@string/hint_nhap"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toStartOf="@id/btnChoose"
+        android:background="@drawable/edittext_boder"
+        android:drawablePadding="20dp"
+        android:inputType="textLongMessage"
+        android:maxLines="1"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:textColorHint="#aeafaf"
+        android:textSize="15sp" >
+        <requestFocus
+
+            />
+    </EditText>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "13396769734",
+    "firebase_url": "https://cskh-b8da6.firebaseio.com",
+    "project_id": "cskh-b8da6",
+    "storage_bucket": "cskh-b8da6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13396769734:android:976b989db083bb22",
+        "android_client_info": {
+          "package_name": "com.bkav.cskh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13396769734-me0724uvebivvtkre89er6q929ei0skk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY2vd8iwt-uvynauBzf2jYqWJrVNOuaqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13396769734-me0724uvebivvtkre89er6q929ei0skk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

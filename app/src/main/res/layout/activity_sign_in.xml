@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/bkav"/>
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:text="@string/nhap_ten"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="italic"
+        android:textSize="26sp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/name_user"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="55dp"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_edittext" />
+    <Button
+        android:id="@+id/dong_y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="150dp"
+        android:text="@string/chap_nhan"
+        android:inputType="textLongMessage"
+        android:textSize="16sp"
+        android:background="@drawable/button_custom"/>-->
+</RelativeLayout>
